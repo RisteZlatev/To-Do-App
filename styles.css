@@ -141,3 +141,37 @@ ul .box-text{
     word-wrap: break-word;
 }
 
+@media only screen and (max-width: 600px) {
+    .todo-app{
+        width: 350px; 
+    }
+    .row{
+        width: 300px;
+        padding-left: 0px;
+        margin: auto;
+    }
+    .todo-app button{
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .todo-app .text-input{
+        border-radius: 30px;
+        font-size: 10px;
+    }
+    ul li{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .checkbox-wrapper-18 .round label {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        display: block;
+      }
+      .fa-x{
+        font-size: 10px;
+      }
+}
